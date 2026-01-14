@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "WundercarGarageCrossword/assets/fonts/321impact.ttf",
+      "sha1": "3bc5ba6bf0f5a0c6a6effe231c901c46ca336115"
+    },
+    {
+      "path": "WundercarGarageCrossword/assets/fonts/Impacted.ttf",
+      "sha1": "c05ebf5724ee1e61d5f3d54c483df1f8a410e6b3"
+    },
+    {
+      "path": "WundercarGarageCrossword/assets/fonts/impact.ttf",
+      "sha1": "1cc231f6ba7e2c141e28db4eac92b211d4033df6"
+    }
+  ]
+}
