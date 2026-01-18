@@ -49,7 +49,7 @@ const WundercarLoader = () => {
         {showImage && (
           <View style={sty.logoWrapper} accessibilityLabel="loader-screen">
             <Image
-              source={require('../assets/images/andricon.png')}
+              source={require('../assets/images/logo.png')}
               style={{ width: 300, height: 300, borderRadius: 62 }}
             />
           </View>

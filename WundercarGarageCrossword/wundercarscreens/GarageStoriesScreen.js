@@ -16,7 +16,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import { isSmallPhone } from '../constants/useScreen';
 
 const wundercartFont = 'impact';
-const backImg = require('../assets/images/garrage_back.png');
+const backImg = require('../assets/images/back.png');
 const gradientColors = ['#FEE08E', '#FEAE06'];
 
 const garageStories = [
@@ -203,18 +203,6 @@ const GarageStoriesScreen = () => {
             </View>
           </View>
         </View>
-
-        <Image
-          source={require('../assets/images/wrkr_man.png')}
-          style={{
-            right: 0,
-            position: 'absolute',
-            bottom: 0,
-            width: isPortraitMode ? width * 0.7 : height * 1,
-            height: isPortraitMode ? width * 0.7 : height * 1,
-          }}
-          resizeMode="contain"
-        />
       </ScrollView>
     </ImageBackground>
   );

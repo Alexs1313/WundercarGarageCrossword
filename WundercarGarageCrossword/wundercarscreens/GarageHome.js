@@ -56,7 +56,10 @@ const GarageHome = () => {
             flex: 1,
           }}
         >
-          <Image source={require('../assets/images/homeLgg.png')} />
+          <Image
+            source={require('../assets/images/logo.png')}
+            style={{ width: 280, height: 280, borderRadius: 62 }}
+          />
           <View style={{ rowGap: 15 }}>
             <TouchableOpacity
               activeOpacity={0.7}
