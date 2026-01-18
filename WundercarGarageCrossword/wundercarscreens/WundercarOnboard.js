@@ -100,7 +100,7 @@ const WundercarOnboard = () => {
               <Image source={require('../assets/images/title1.png')} />
               <Text style={styles.wundercarSub}>
                 <Text style={(styles.wundercarSub, { fontWeight: '700' })}>
-                  {onboardingIndex === 0 && 'Wundercar Garage Crossword\n'}
+                  {onboardingIndex === 0 && 'Garage Word Quest\n'}
                 </Text>
                 {onboardTexts[onboardingIndex].sbttl}
               </Text>

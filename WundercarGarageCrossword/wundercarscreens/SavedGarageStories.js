@@ -17,7 +17,7 @@ import { isSmallPhone } from '../constants/useScreen';
 import { garageStories } from '../crossworddata/garageStories';
 
 const wundercartFont = 'impact';
-const backImg = require('../assets/images/garrage_back.png');
+const backImg = require('../assets/images/bg.png');
 const primaryColor = '#3C1C0F';
 
 const SavedStoriesScreen = () => {
