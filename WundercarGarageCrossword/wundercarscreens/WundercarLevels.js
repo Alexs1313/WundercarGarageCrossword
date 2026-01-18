@@ -150,8 +150,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  backBtn: { position: 'absolute', left: 12 },
-  headerText: { color: '#3C1C0F', fontSize: 22, fontWeight: '900' },
+  backBtn: { position: 'absolute', left: 10 },
+  headerText: { color: '#3C1C0F', fontSize: 18, fontWeight: '900' },
   grid: {
     alignSelf: 'center',
     width: '70%',
@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   startText: {
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: '900',
     color: '#431C0D',
     fontFamily: 'impact',

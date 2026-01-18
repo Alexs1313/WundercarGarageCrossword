@@ -301,7 +301,7 @@ export default function CrosswordScreen({ navigation, route }) {
                   <Text style={styles.subTitle}>You earned:</Text>
                   <Image
                     source={require('../assets/images/earnednuts.png')}
-                    style={{ marginTop: 10 }}
+                    style={{ marginTop: 10, alignSelf: 'center' }}
                   />
                 </View>
               )}
@@ -437,6 +437,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#000000',
     marginBottom: 4,
+    textAlign: 'center',
   },
   rewardPill: {
     marginTop: 14,

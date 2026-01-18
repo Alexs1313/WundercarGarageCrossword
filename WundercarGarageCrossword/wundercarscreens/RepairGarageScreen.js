@@ -340,7 +340,7 @@ const styles = StyleSheet.create({
   noBtn: {
     width: 62,
     borderRadius: 6,
-    height: 22,
+    height: 32,
     alignItems: 'center',
     justifyContent: 'center',
   },
