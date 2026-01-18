@@ -123,7 +123,7 @@ export default function RepairGarageScreen({ navigation }) {
               />
             </TouchableOpacity>
 
-            <Text style={styles.wundercarHeadTub}>Saved Stories</Text>
+            <Text style={styles.wundercarHeadTub}>Garage</Text>
           </LinearGradient>
           <ImageBackground
             style={[styles.wundercarQCont, { top: height * 0.075, right: 30 }]}
